@@ -1,0 +1,39 @@
+.section-5{
+    height: 15vh;
+    background-color: #fff;
+    @include flex(space-between);
+    svg{
+        width: 3rem;
+        height: auto;
+    }
+    ul{
+        @include flex(center);
+        list-style: none;
+    }
+    li{
+        margin: 0 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: $green;
+    }
+    .bottom-nav-links{
+        margin-top: 1rem; 
+        font-family: Arial, Helvetica, sans-serif;
+        a{
+            color: $green;
+            margin: 0 3rem;
+            font-size: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        #sub{
+            border: 1.4px solid #000;
+        }
+    }
+    .social{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+}

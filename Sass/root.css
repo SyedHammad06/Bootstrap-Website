@@ -1,0 +1,311 @@
+@font-face {
+  src: url("/strasua.ttf");
+  font-family: Str;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  color: #053005;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  height: 96vh;
+  width: 98%;
+  margin: 2vh auto;
+  background: url("/pics/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.main h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Str;
+}
+
+.main h2:first-of-type {
+  margin-top: 10rem;
+  font-weight: 500;
+  font-size: 150px;
+}
+
+.main hr {
+  width: 5rem;
+  margin: 2rem auto;
+  border: 2px solid #053005;
+}
+
+.main #head {
+  font-size: 40px;
+}
+
+.nav {
+  font-family: Str;
+  width: 98%;
+  height: 10vh;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-links {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav .nav-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.nav .nav-links ul a {
+  color: #053005;
+  margin: 0 3rem;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav .nav-links ul #sub {
+  border: 1.4px solid #000;
+}
+
+.section-2 h1 {
+  margin-top: 5rem;
+  font-family: Str;
+}
+
+.section-2 hr {
+  width: 5rem;
+  margin: 1rem auto 5rem auto;
+  border: 2px solid #053005;
+}
+
+.box {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .boxes {
+  width: 30%;
+  height: 33rem;
+  margin: 0 3%;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 10px #666;
+          box-shadow: 5px 5px 10px #666;
+}
+
+.box .boxes img {
+  width: 100%;
+}
+
+.box .boxes hr {
+  width: 3rem;
+  margin: 5rem auto 0 auto;
+  border: 1px solid #053005;
+}
+
+.box .boxes h5 {
+  font-size: 23px;
+  padding: 10px 50px;
+}
+
+.section-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-3 img {
+  margin-top: 10rem;
+  width: 50%;
+}
+
+.section-3 .text {
+  margin-top: 10rem;
+  background-color: #fff;
+}
+
+.section-3 .text h1 {
+  margin-top: 8rem;
+  font-family: Str;
+}
+
+.section-3 .text hr {
+  width: 5rem;
+  margin: 1rem auto 4rem auto;
+  border: 2px solid #053005;
+}
+
+.section-3 .text p {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.section-4 {
+  height: 60vh;
+}
+
+.section-4 h1 {
+  font-family: Str;
+  font-size: 60px;
+  margin-top: 10rem;
+}
+
+.section-4 h2 {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-weight: lighter;
+}
+
+.section-4 input {
+  background-color: #fff;
+  width: 600px;
+  height: 60px;
+  padding: 20px;
+}
+
+.section-4 input:focus {
+  outline: none;
+}
+
+.section-4 button {
+  margin-top: 4rem;
+  background: none;
+  padding: 20px 30px;
+  border: 1.4px solid #053005;
+  font-size: 20px;
+}
+
+.section-4 ::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+.section-4 :-ms-input-placeholder {
+  padding: 10px;
+}
+
+.section-4 ::-ms-input-placeholder {
+  padding: 10px;
+}
+
+.section-4 ::placeholder {
+  padding: 10px;
+}
+
+.section-5 {
+  height: 15vh;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-5 svg {
+  width: 3rem;
+  height: auto;
+}
+
+.section-5 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.section-5 li {
+  margin: 0 1rem;
+}
+
+.section-5 a {
+  text-decoration: none;
+  color: #053005;
+}
+
+.section-5 .bottom-nav-links {
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-5 .bottom-nav-links a {
+  color: #053005;
+  margin: 0 3rem;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section-5 .bottom-nav-links #sub {
+  border: 1.4px solid #000;
+}
+
+.section-5 .social {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=root.css.map */

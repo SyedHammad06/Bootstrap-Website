@@ -1,0 +1,51 @@
+.main{
+    height: 96vh;
+    width: 98%;
+    margin: 2vh auto;
+    background: url("/pics/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    h2{
+        @include flex(center);
+        font-family: Str;
+    }
+    h2:first-of-type{
+        margin-top: 10rem;
+        font-weight: 500;
+        font-size: 150px;
+    }
+    hr{
+        width: 5rem;
+        margin: 2rem auto;
+        border: 2px solid $green;
+    }
+    #head{
+        font-size: 40px;
+    }
+}
+.nav{
+    font-family: Str;
+    width: 98%;
+    height: 10vh;
+    margin: auto;
+    @include flex(space-between);
+    .nav-links{
+        font-family: Arial, Helvetica, sans-serif;
+        ul{
+            @include flex(center);
+            list-style: none;
+            a{
+                color: $green;
+                margin: 0 3rem;
+                font-size: 20px;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-weight: 500;
+            }
+            #sub{
+                border: 1.4px solid #000;
+            }
+        }
+    }
+}

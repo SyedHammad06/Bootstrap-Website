@@ -1,0 +1,32 @@
+.section-4{
+    height: 60vh;
+    h1{
+        font-family: Str;
+        font-size: 60px;
+        margin-top: 10rem;
+    }
+    h2{
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+        font-weight: lighter;
+    }
+    input{
+        background-color: #fff;
+        width: 600px;
+        height: 60px;
+        padding: 20px;
+    }
+    input:focus{
+        outline: none;
+    }
+    button {
+        margin-top: 4rem;
+        background: none;
+        padding: 20px 30px;
+        border: 1.4px solid $green;
+        font-size: 20px;
+    }
+    ::placeholder{
+        padding: 10px;
+    }
+}
