@@ -3,6 +3,10 @@
   font-family: Str;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -239,5 +243,69 @@ body {
 
 .section-4 ::placeholder {
   padding: 10px;
+}
+
+.section-5 {
+  height: 15vh;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-5 svg {
+  width: 3rem;
+  height: auto;
+}
+
+.section-5 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.section-5 li {
+  margin: 0 1rem;
+}
+
+.section-5 a {
+  text-decoration: none;
+  color: #053005;
+}
+
+.section-5 .bottom-nav-links {
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-5 .bottom-nav-links a {
+  color: #053005;
+  margin: 0 3rem;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section-5 .bottom-nav-links #sub {
+  border: 1.4px solid #000;
+}
+
+.section-5 .social {
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=root.css.map */

@@ -9,6 +9,9 @@ $green: rgb(5, 48, 5);
     src: url("/strasua.ttf");
     font-family: Str;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
