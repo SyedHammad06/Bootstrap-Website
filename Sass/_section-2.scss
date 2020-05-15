@@ -1,0 +1,35 @@
+.section-2 {
+    h1{
+        margin-top: 5rem;
+        font-family: Str;
+    }
+    hr{
+        width: 5rem;
+        margin: 1rem auto 5rem auto;
+        border: 2px solid $green;
+    }
+}
+.box{
+    width: 95%;
+    margin: auto;
+    @include flex(center);
+    .boxes{
+        width: 30%;
+        height: 33rem;
+        margin: 0 3%;
+        background-color: #fff;
+        box-shadow: 5px 5px 10px #666;
+        img{
+            width: 100%;
+        }
+        hr{
+            width: 3rem;
+            margin: 5rem auto 0 auto;
+            border: 1px solid $green;
+        }
+        h5{
+            font-size: 23px;
+            padding: 10px 50px;
+        }
+    }
+}
